@@ -1,4 +1,4 @@
 [build]
-base = "jacobs-band/"
+base = "BlueKarmaOfficialWebsite/"
 publish = "jacobs-band/build/"
 command = "npm run build"
