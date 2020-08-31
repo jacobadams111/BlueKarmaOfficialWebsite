@@ -1,6 +1,6 @@
 import React from "react";
 
-import selfie from "../../assets/bioPic.png";
+import selfie from "../../assets/bioPic.jpg";
 
 import "../../styles/components/bio.scss";
 
