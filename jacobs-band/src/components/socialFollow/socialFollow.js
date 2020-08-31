@@ -19,7 +19,7 @@ const SocialFollow = () => {
         <FontAwesomeIcon icon={faFacebook} size="2x" />
       </a>
       <a
-        href="https://www.youtube.com/channel/UCipvlXzIub_NwlL9smDpm1Q"
+        href="https://www.youtube.com/c/BlueKarma"
         className="youtube social"
       >
         <FontAwesomeIcon icon={faYoutube} size="2x" />
@@ -31,7 +31,7 @@ const SocialFollow = () => {
         <FontAwesomeIcon icon={faSpotify} size="2x" />
       </a>
       <a
-        href="https://www.instagram.com/jacob.adamz/"
+        href="https://www.instagram.com/bluekarmaofficial/"
         className="instagram social"
       >
         <FontAwesomeIcon icon={faInstagram} size="2x" />
