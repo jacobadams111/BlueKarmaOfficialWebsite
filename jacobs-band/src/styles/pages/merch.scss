@@ -6,10 +6,10 @@
   color: $primary-white;
   font-family: "Sunflower";
   overflow: auto;
-  h3 {
-    padding-top: 100px;
+  h2 {
+    padding-top: 20px;
     margin: 0;
-    text-decoration: none;
+    font-size: calc(5px + 3vw);
   }
 
   @media (max-width: 400px) {

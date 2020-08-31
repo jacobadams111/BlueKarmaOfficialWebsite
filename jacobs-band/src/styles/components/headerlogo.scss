@@ -1,17 +1,17 @@
 @import "../variables.scss";
 
 .Logo-header {
-  margin-left: -24px;
   position: fixed;
-  top: -40px;
+  top: -18px;
+  left: -12px;
   z-index: +3;
   opacity: 0.8;
   width: 30vw;
   height: 30vw;
-  max-width: 300px;
-  max-height: 300px;
-  // min-width: 200px;
-  // min-height: 200px;
+  max-width: 275px;
+  max-height: 275px;
+  min-width: 100px;
+  min-height: 100px;
 
   img {
     width: 100%;

@@ -6,17 +6,14 @@
   width: 100%;
 }
 
-.header-links li:first-child {
-  margin-right: 12px;
-}
-
 .header-links li:hover {
+  color: #48c8ff;
   border-bottom: 2px solid $primary-pink;
 }
 
 .header-links li {
   float: right;
-  margin-left: 5vw;
+  margin-left: 4vw;
   font-size: calc(5px + 2vw);
   font-family: "Sunflower";
   color: $primary-blue;
@@ -25,6 +22,8 @@
 }
 
 .header-links {
+  float: right;
+  width: 70vw;
   list-style-type: none;
   margin-right: 20px;
   margin-top: 20px;

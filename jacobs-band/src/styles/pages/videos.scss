@@ -4,8 +4,11 @@
   padding: 15px 15px 15px 15px;
   background-color: $primary-black;
   overflow: auto;
-  h1 {
+  h2 {
     margin: 0;
-    padding-top: 100px;
+    padding-top: 20px;
+    font-family: "Sunflower";
+    color: $primary-white;
+    font-size: calc(5px + 3vw);
   }
 }
