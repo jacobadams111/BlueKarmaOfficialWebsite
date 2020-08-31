@@ -9,7 +9,7 @@ import "../../styles/pages/merch.scss";
 const MerchandisePage = () => {
   return (
     <div id={"merch"} className={"merchandise-page"}>
-      <h1>Merch, Bitches!</h1>
+      <h2>Merch</h2>
       <div className={"merch-products"}>
         <Product title="Coming Soon!" image={imgPath}></Product>
         <Product title="Coming Soon!" image={imgPath}></Product>
