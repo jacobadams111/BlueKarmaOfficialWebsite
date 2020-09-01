@@ -14,9 +14,9 @@ const MerchandisePage = () => {
     <div id={"merch"} className={"merchandise-page"}>
       <h2>Merch</h2>
       <div className={"merch-products"}>
-        <Product title="Coming Soon!" image={BasicLogoSticker}></Product>
-        <Product title="Coming Soon!" image={HoloSticker}></Product>
-        <Product title="Coming Soon!" image={SquareSticker}></Product>
+        <Product title={'3" Vinyl Sticker'} image={BasicLogoSticker}></Product>
+        <Product title={'4" Holographic Sticker'} image={HoloSticker}></Product>
+        <Product title={'3" Square Sticker'} image={SquareSticker}></Product>
       </div>
     </div>
   );

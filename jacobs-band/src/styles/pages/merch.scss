@@ -24,16 +24,6 @@
     }
   }
 
-  // @media (min-width: 401px) and (max-width: 800px) {
-  //   .merch-products {
-  //     grid-template-columns: 1fr 1fr;
-  //     //? We took this out bc we want images to be square in this grid
-  //     // grid-template-rows: 1fr 1fr 1fr;
-  //     grid-gap: 5vw 5vw;
-  //     padding: 5vw;
-  //   }
-  // }
-
   @media (min-width: 401px) {
     .merch-products {
       grid-template-columns: 1fr 1fr 1fr;
@@ -50,7 +40,7 @@
     .product {
       overflow: visible;
       box-shadow: 3px 3px 2px $primary-blue, -2px -2px 2px $primary-pink;
-
+      background-color: $primary-black;
       a {
         text-decoration: none;
         color: $primary-white;
@@ -58,7 +48,7 @@
 
       h3 {
         padding: 0;
-        font-size: calc(10px + 1vw);
+        font-size: calc(5px + 1vw);
       }
 
       img {

@@ -2,7 +2,6 @@
 
 .bio-container {
   color: $primary-white;
-  // background-color: $primary-black;
   font-family: "Sunflower";
   z-index: 1;
   position: relative;
@@ -10,13 +9,12 @@
   display: block;
   height: auto;
   overflow: auto;
-  margin-top: 180px;
+  margin-top: calc(50px + 10vw);
   margin-bottom: 10px;
 }
 .bio-container img {
   width: 50vw;
   height: 25vw;
-  // clip-path: ellipse(200px 240px at 170px 200px);
 }
 
 .bio-container h2 {
@@ -26,8 +24,8 @@
 
 .bio-container p {
   font-size: calc(5px + 1vw);
-  padding: 12px 50px 12px 50px;
-  text-align: right;
+  padding: 12px 50px 12px 55vw;
+  text-align: left;
   margin: 0;
 }
 
@@ -38,5 +36,9 @@
 
   .bio-container {
     height: auto;
+  }
+
+  .bio-container p {
+    padding: 12px 50px 12px 50px;
   }
 }
