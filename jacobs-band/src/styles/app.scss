@@ -1,4 +1,15 @@
+@import "./variables.scss";
+
 .App {
   text-align: center;
   display: block;
+  background-color: $primary-black;
+}
+
+#svgContainer {
+  text-align: left;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: flex;
 }

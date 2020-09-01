@@ -2,7 +2,8 @@
 
 .videos-container {
   padding: 15px 15px 15px 15px;
-  background-color: $primary-black;
+  // background-color: $primary-black;
+  position: relative;
   overflow: auto;
   h2 {
     margin: 0;
