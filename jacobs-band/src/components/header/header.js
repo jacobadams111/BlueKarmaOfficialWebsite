@@ -13,6 +13,7 @@ const Header = () => {
   return (
     <div className={"App-header"}>
       <HeaderLogo />
+      <button onClick={() => console.log("Click!")}>Toggle Motion</button>
       <ul className={"header-links"}>
         <a href="#contact-page">
           <li ref={ContactsRef}>Contact</li>

@@ -3,9 +3,8 @@
 .bio-container {
   color: $primary-white;
   font-family: "Sunflower";
-  z-index: 1;
+  z-index: 2;
   position: relative;
-
   display: block;
   height: auto;
   overflow: auto;
@@ -15,6 +14,8 @@
 .bio-container img {
   width: 50vw;
   height: 25vw;
+  box-shadow: 3px 3px 2px $primary-blue, -2px -2px 2px $primary-pink;
+  margin: 3px 3px 3px 3px;
 }
 
 .bio-container h2 {

@@ -1,8 +1,10 @@
 @import "../variables.scss";
 
 .social-container {
-  background-color: $primary-black;
-  padding: 3vh 3vw;
+  padding: 3vh 0vw;
+  width: 100%;
+  margin: 0;
+  display: inline-block;
 }
 a.social {
   margin: 0 1rem;
