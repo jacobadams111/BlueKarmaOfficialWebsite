@@ -4,16 +4,22 @@ import HeaderLogo from "../header/headerlogo";
 
 import "../../styles/components/header.scss";
 
-const Header = () => {
+const Header = (props) => {
   const HomeRef = React.createRef();
   const VideosRef = React.createRef();
   const MerchRef = React.createRef();
   const ContactsRef = React.createRef();
 
+  const handleClick = () => {
+    props.handleToggle(!props.motion);
+  };
+
   return (
     <div className={"App-header"}>
       <HeaderLogo />
-      <button onClick={() => console.log("Click!")}>Toggle Motion</button>
+      <button onClick={() => handleClick()}>
+        {props.motion ? "Motion ON" : "Motion OFF"}
+      </button>
       <ul className={"header-links"}>
         <a href="#contact-page">
           <li ref={ContactsRef}>Contact</li>
