@@ -8,7 +8,7 @@ const Header = (props) => {
   const HomeRef = React.createRef();
   const VideosRef = React.createRef();
   const MerchRef = React.createRef();
-  const ContactsRef = React.createRef();
+  // const ContactsRef = React.createRef();
 
   const handleClick = () => {
     props.handleToggle(!props.motion);
@@ -21,9 +21,9 @@ const Header = (props) => {
         {props.motion ? "Motion ON" : "Motion OFF"}
       </button>
       <ul className={"header-links"}>
-        <a href="#contact-page">
+        {/* <a href="#contact-page">
           <li ref={ContactsRef}>Contact</li>
-        </a>
+        </a> */}
         <a href="#merch">
           <li ref={MerchRef}>Merch</li>
         </a>
