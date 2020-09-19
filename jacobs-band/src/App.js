@@ -16,8 +16,8 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/">
-            <Header />
-            <Home />
+            <Header motion={value} handleToggle={toggleValue} />
+            <Home motion={value} />
             <Footer />
           </Route>
           <Route exact path="/lyrics">
@@ -27,6 +27,7 @@ function App() {
           </Route>
         </Switch>
       </div>
+    </Router>
   );
 }
 
