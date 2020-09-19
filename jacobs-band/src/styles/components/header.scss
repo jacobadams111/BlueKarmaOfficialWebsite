@@ -2,7 +2,7 @@
 
 .App-header {
   position: fixed;
-  z-index: 200;
+  z-index: 2;
   width: 100%;
 
   button {
@@ -33,7 +33,7 @@
   margin-left: 4vw;
   font-size: calc(5px + 2vw);
   font-family: "Sunflower";
-  color: $primary-white;
+  color: $primary-blue;
   text-shadow: 2px 2px $primary-black;
   text-decoration: none;
 }
@@ -42,6 +42,6 @@
   float: right;
   width: 60vw;
   list-style-type: none;
-  padding-right: 20px;
-  margin-top: 20px;
+  margin-right: 4vw;
+  margin-top: 2vh;
 }

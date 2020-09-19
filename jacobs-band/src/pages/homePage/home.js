@@ -1,11 +1,12 @@
 import React from "react";
 
 import Bio from "../../components/bio/bio";
+import SquareOneEp from "../../pages/squareOneEp/squareOneEp";
 import Videos from "../../pages/videos/videos";
 import Merch from "../../pages/merch/merchandise";
-// import Contact from "../../pages/contact/contact";
 
 import "../../styles/pages/home.scss";
+import LockedOutVideo from "../../components/lockedOutVideo/lockedOutVideo";
 
 const HomePage = (props) => {
   return (
@@ -179,7 +180,9 @@ const HomePage = (props) => {
           </svg>
         )}
       </div>
+      <LockedOutVideo />
       <Bio />
+      <SquareOneEp />
       <Videos />
       <Merch />
       {/* <Contact /> I COMMENTED THIS OUT SINCE WE DON'T CURRENTLY HAVE A CONTACT EMAIL OF PHONE # */}
