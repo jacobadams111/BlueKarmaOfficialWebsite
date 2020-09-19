@@ -1,4 +1,7 @@
 import React from "react";
+// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+//import HomePage from "../../pages/homePage/home";
+//import Lyrics from "../../pages/lyrics/lyrics";
 
 import HeaderLogo from "../header/headerlogo";
 
