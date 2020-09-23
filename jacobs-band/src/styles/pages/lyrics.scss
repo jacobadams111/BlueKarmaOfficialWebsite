@@ -1,1 +1,40 @@
 @import "../variables.scss";
+
+.lyrics {
+  color: $primary-white;
+  font-family: "Sunflower";
+  z-index: 1;
+  position: relative;
+  display: block;
+  height: auto;
+  overflow: auto;
+  font-size: 2vw;
+  //text-align: left;
+  //margin-left: 5vw;
+  //margin-right: 5vw;
+}
+
+.lyrics h1 {
+  color: $primary-pink;
+  margin-bottom: 5vw;
+  //text-align: left;
+  //margin-top: 20vh;
+  //margin-left: 5vw;
+  //justify-content: left;
+}
+.lyrics h2 {
+  color: #29abe2;
+  margin-bottom: 0px;
+}
+
+.lyrics p {
+  margin-top: 0px;
+}
+
+.lyrics br {
+  display: inline;
+}
+.lyrics br:after {
+  content: "\a";
+  white-space: pre;
+}

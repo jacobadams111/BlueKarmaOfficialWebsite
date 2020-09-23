@@ -13,16 +13,16 @@ const Header = (props) => {
   const MerchRef = React.createRef();
   // const ContactsRef = React.createRef();
 
-  const handleClick = () => {
-    props.handleToggle(!props.motion);
-  };
+  // const handleClick = () => {
+  //   props.handleToggle(!props.motion);
+  // };
 
   return (
     <div className={"App-header"}>
       <HeaderLogo />
-      <button onClick={() => handleClick()}>
+      {/* <button onClick={() => handleClick()}>
         {props.motion ? "Motion ON" : "Motion OFF"}
-      </button>
+      </button> */}
       <ul className={"header-links"}>
         {/* <a href="#contact-page">
           <li ref={ContactsRef}>Contact</li>

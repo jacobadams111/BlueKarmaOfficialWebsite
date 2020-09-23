@@ -21,7 +21,6 @@ function App() {
             <Footer />
           </Route>
           <Route exact path="/lyrics">
-            <Header />
             <Lyrics />
             <Footer />
           </Route>
