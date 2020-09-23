@@ -18,7 +18,11 @@ const SquareOneEp = () => {
         <p>4. On The Other Side</p>
         <p>5. Something's Missing</p>
         <p>6. Arrays In My Brain</p>
-        <Link to="/lyrics">lyrics</Link>
+        <p>
+          <Link id="lyricsLink" to="/lyrics">
+            See Lyrics Here
+          </Link>
+        </p>
       </div>
     </div>
   );

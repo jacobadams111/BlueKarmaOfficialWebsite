@@ -2,20 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/pages/lyrics.scss";
 
-// This is a hook function that is supposed to render lyric page at the top
-//you need to import {useEffect} for this to work
-//The page opens half way down the page when you click on the lyric link
-
-// function TopOfPage() {
-//   useEffect(() => {
-//     window.scrollTo(0, 0);
-//   });
-// }
-
-const lyrics = () => {
+const Lyrics = () => {
   return (
     <div className="lyrics">
-      <Link to="/">home</Link>
+      <Link to="/">Back</Link>
       <h1>Square One Lyrics</h1>
 
       <h2>"Arrays In My Brain"</h2>
@@ -189,4 +179,4 @@ const lyrics = () => {
   );
 };
 
-export default lyrics;
+export default Lyrics;
