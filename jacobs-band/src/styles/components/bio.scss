@@ -4,34 +4,35 @@
   color: $primary-white;
   font-family: "Sunflower";
   z-index: 1;
+  display: flex;
   position: relative;
   height: auto;
   overflow: auto;
-  margin-top: 5vh;
-  display: flex;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-top: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 .bio-container img {
   width: 50vw;
-  height: 30vw;
-  margin-left: 3vw;
-  margin-bottom: 2vh;
+  height: 33vw;
   object-fit: contain;
+  //margin-bottom: 2vh;
+  //margin-left: 3vw;
   // clip-path: ellipse(200px 240px at 170px 200px);
 }
 
 .bio-container h2 {
   font-size: calc(5px + 3vw);
   text-align: left;
-  margin-bottom: 20px;
-  //margin-top: 0px;
-  // padding: 20px 20px;
+  margin-bottom: 2vh;
+  margin-top: 0px;
+  //padding: 20px 20px;
 }
 
 .bio-container p {
   font-size: calc(5px + 1vw);
   text-align: left;
+  margin-right: 2vw;
 }
 
 .bio-container .row {
@@ -42,13 +43,22 @@
 @media (max-width: 800px) {
   .bio-container {
     flex-direction: column;
-
     .row {
       flex-direction: column;
     }
   }
 
+  .bio-container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .bio-container h2 {
+    margin-top: 0px;
+    justify-content: center;
+  }
   .bio-container p {
-    padding: 12px 50px 12px 50px;
+    justify-content: center;
+    //padding: 12px 50px 12px 50px;
   }
 }
