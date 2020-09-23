@@ -9,32 +9,47 @@
   height: auto;
   overflow: auto;
   font-size: 2vw;
-  //text-align: left;
-  //margin-left: 5vw;
-  //margin-right: 5vw;
-}
 
-.lyrics h1 {
-  color: $primary-pink;
-  margin-bottom: 5vw;
-  //text-align: left;
-  //margin-top: 20vh;
-  //margin-left: 5vw;
-  //justify-content: left;
-}
-.lyrics h2 {
-  color: #29abe2;
-  margin-bottom: 0px;
-}
+  h1 {
+    color: $primary-pink;
+    margin-bottom: 5vw;
+    font-size: 6vw;
+  }
 
-.lyrics p {
-  margin-top: 0px;
-}
+  h2 {
+    color: #29abe2;
+    margin-bottom: 0px;
+    margin-top: 4vh;
+  }
 
-.lyrics br {
-  display: inline;
-}
-.lyrics br:after {
-  content: "\a";
-  white-space: pre;
+  p {
+    margin-top: 0px;
+  }
+
+  br {
+    display: inline;
+  }
+
+  br:after {
+    content: "\a";
+    white-space: pre;
+  }
+
+  a:link {
+    color: $primary-white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $primary-white;
+    text-decoration: none;
+    border-bottom: 3px solid $primary-blue;
+  }
+  a:active {
+    color: $primary-white;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $primary-white;
+    text-decoration: none;
+  }
 }

@@ -20,7 +20,7 @@
   height: 40vw;
   object-fit: contain;
   margin-right: 3vw;
-  //box-shadow: 3px 3px 2px $primary-blue, -2px -2px 2px $primary-pink;
+  //box-shadow: 3px 3px 2px $primary-blue, -2px -2px 2px $primary-white;
   //clip-path: ellipse(200px 240px at 170px 200px);
   //margin-right: 30px;
 }
@@ -36,9 +36,11 @@
 .ep-container p {
   font-size: calc(5px + 1vw);
   text-align: left;
-  //padding: 12px 50px 12px 50px;
-  //margin: 0;
-  //margin-left: 100px;
+}
+
+.ep-container #lyricsLink {
+  font-size: calc(5px + 1vw);
+  text-align: left;
 }
 
 // I was trying to format the link here but can't figure it out
@@ -64,6 +66,18 @@ li:visited {
 .ep-container .row {
   flex-direction: row;
   //justify-content: center;
+}
+
+.ep-container .row a {
+  // font: bold 11px Arial;
+  text-decoration: none;
+  background-color: $primary-blue;
+  color: $primary-white;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid $primary-white;
+  border-right: 1px solid $primary-white;
+  border-bottom: 1px solid $primary-white;
+  border-left: 1px solid $primary-white;
 }
 
 @media (max-width: 800px) {
