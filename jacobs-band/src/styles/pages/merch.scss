@@ -2,13 +2,16 @@
 
 .merchandise-page {
   padding: 15px 15px 15px 15px;
-  background-color: $primary-black;
+  z-index: 1;
+  // background-color: $primary-black;
   color: $primary-white;
   font-family: "Sunflower";
+  position: relative;
   overflow: auto;
+
   h2 {
-    padding-top: 20px;
-    margin: 0;
+    margin-top: 12vh;
+    margin-bottom: 0px;
     font-size: calc(5px + 3vw);
   }
 
@@ -18,19 +21,9 @@
       //? We took this out bc we want images to be square in this grid
       // grid-template-rows: 1fr 1fr 1fr;
       grid-gap: 5vw 5vw;
-      padding: 5vw;
+      padding: 5vh;
     }
   }
-
-  // @media (min-width: 401px) and (max-width: 800px) {
-  //   .merch-products {
-  //     grid-template-columns: 1fr 1fr;
-  //     //? We took this out bc we want images to be square in this grid
-  //     // grid-template-rows: 1fr 1fr 1fr;
-  //     grid-gap: 5vw 5vw;
-  //     padding: 5vw;
-  //   }
-  // }
 
   @media (min-width: 401px) {
     .merch-products {
@@ -48,7 +41,7 @@
     .product {
       overflow: visible;
       box-shadow: 3px 3px 2px $primary-blue, -2px -2px 2px $primary-pink;
-
+      background-color: $primary-black;
       a {
         text-decoration: none;
         color: $primary-white;
@@ -56,7 +49,7 @@
 
       h3 {
         padding: 0;
-        font-size: calc(10px + 1vw);
+        font-size: calc(5px + 1vw);
       }
 
       img {

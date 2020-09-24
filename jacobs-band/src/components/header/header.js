@@ -1,22 +1,29 @@
 import React from "react";
+// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+//import HomePage from "../../pages/homePage/home";
+//import Lyrics from "../../pages/lyrics/lyrics";
 
 import HeaderLogo from "../header/headerlogo";
 
 import "../../styles/components/header.scss";
 
-const Header = () => {
+const Header = (props) => {
   const HomeRef = React.createRef();
   const VideosRef = React.createRef();
   const MerchRef = React.createRef();
-  const ContactsRef = React.createRef();
+  // const ContactsRef = React.createRef();
+
+  const handleClick = () => {
+    props.handleToggle(!props.motion);
+  };
 
   return (
     <div className={"App-header"}>
-      <HeaderLogo />
+      <HeaderLogo clicked={() => handleClick()} motion={props.motion} />
       <ul className={"header-links"}>
-        <a href="#contact-page">
+        {/* <a href="#contact-page">
           <li ref={ContactsRef}>Contact</li>
-        </a>
+        </a> */}
         <a href="#merch">
           <li ref={MerchRef}>Merch</li>
         </a>

@@ -1,4 +1,17 @@
+@import "./variables.scss";
+
 .App {
   text-align: center;
   display: block;
+  background-color: $primary-black;
+  background-image: url(../assets/Eye.svg);
+}
+
+#svgContainer {
+  text-align: left;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  z-index: 0;
 }

@@ -2,8 +2,25 @@
 
 .App-header {
   position: fixed;
-  z-index: +2;
+  z-index: 2;
   width: 100%;
+
+  button {
+    display: inline-block;
+    width: calc(50px + 8vw);
+    height: 5vh;
+    // font-size: calc(2px + 1vw);
+    // padding: 0.7em 1.4em;
+    // margin: 10px 0.3em 0.3em 20vw;
+    text-decoration: none;
+    font-weight: 400;
+    color: $primary-white;
+    background-color: $primary-blue;
+    font-family: "Sunflower";
+    text-align: center;
+    position: relative;
+    border-radius: 0px;
+  }
 }
 
 .header-links li:hover {
@@ -23,8 +40,8 @@
 
 .header-links {
   float: right;
-  width: 70vw;
+  width: 60vw;
   list-style-type: none;
-  margin-right: 20px;
-  margin-top: 20px;
+  margin-right: 4vw;
+  margin-top: 2vh;
 }

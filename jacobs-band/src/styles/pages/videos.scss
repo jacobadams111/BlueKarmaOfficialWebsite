@@ -2,11 +2,13 @@
 
 .videos-container {
   padding: 15px 15px 15px 15px;
-  background-color: $primary-black;
+  // background-color: $primary-black;
+  position: relative;
   overflow: auto;
+  margin-top: 12vh;
+
   h2 {
-    margin: 0;
-    padding-top: 20px;
+    margin-bottom: 5vh;
     font-family: "Sunflower";
     color: $primary-white;
     font-size: calc(5px + 3vw);
