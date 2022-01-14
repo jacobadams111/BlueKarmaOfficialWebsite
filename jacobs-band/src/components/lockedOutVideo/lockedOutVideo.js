@@ -5,7 +5,7 @@ const LockedOutVideo = () => {
   return (
     <div className={"lockedOut-container"}>
       <iframe
-        src="https://www.youtube.com/embed/LakeVG6BWZU"
+        src="https://www.youtube.com/embed/qFUg-Q4vr3M"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen

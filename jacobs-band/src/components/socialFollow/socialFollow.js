@@ -22,7 +22,7 @@ const SocialFollow = () => {
         <FontAwesomeIcon icon={faYoutube} size="3x" />
       </a>
       <a
-        href="https://www.spotify.com" // TODO: change link to go to your profile
+        href="https://open.spotify.com/artist/0NODq02fMF4h980s95XyqG"
         className="spotify social"
       >
         <FontAwesomeIcon icon={faSpotify} size="3x" />

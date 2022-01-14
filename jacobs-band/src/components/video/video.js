@@ -27,11 +27,11 @@ const VideoContainer = () => {
         title="Tame Impala - Alter Ego Multi-Instramental Cover (ft. Angie Bula)"
       ></iframe>
       <iframe
-        src="https://www.youtube.com/embed/dwkeqAO_qDA"
+        src="https://www.youtube.com/embed/wGKiiumEmn0"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-        title="Half Full Glass of Wine Cover"
+        title="Goodie Bag Cover"
       ></iframe>
       {/* <iframe
         src="https://www.youtube.com/embed/KfE5E1TlR8k"
@@ -41,11 +41,11 @@ const VideoContainer = () => {
         title="3"
       ></iframe> */}
       <iframe
-        src="https://www.youtube.com/embed/6kSMYOC9O1c"
+        src="https://www.youtube.com/embed/KfE5E1TlR8k"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-        title="4"
+        title="King Gizzard and The Lizard Wizard - The River"
       ></iframe>
     </div>
   );
